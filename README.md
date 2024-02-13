@@ -14,18 +14,21 @@ lifts the object, lasting some period of time (≈ 0.2s)
 
 ![alt text][protocol]
 
+## Experimental Setup
 
+### Robotic Setup
 The data was collected using an EZGripper mounted on a Universal Robot UR5 arm. One of the fingers of the gripper was replaced with a dedicated structure that includes the uSkin tactile sensor [2], ensuring that it does not interfere with the gripper operation.
 
-Robotic Setup:
 ![alt text][robotic_setup]
 
-uSkin Tactile Sensor:
+### uSkin Tactile Sensor
+
 ![alt text][uskin]
 
 The uSkin sensor [2] features 24 taxels (i.e. sensing units) distributed as a 6 × 4 lattice, covered by a slab of fabric. The slab of fabric acts as an artificial skin that reacts to stretches and friction. Each taxel is made of a silicone dome embedding a magnet located on top of a 3D Hall effect sensor, updating its values at 100 Hz. Therefore, the raw data measured at each taxel represents the values of the local 3D magnetic field induced by the position of the corresponding magnet. The forces applied on the pad induce both shear and normal forces across its surface. Hence, at each taxel i ∈ {1, . . . , 24}, we have ui = [xi , yi , zi]
 
 
+## Dataset Description
 Tactlie slip data has been collected for robitc grasps of seven objects:
 
 ![alt text][objects_table]
