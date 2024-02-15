@@ -8,7 +8,7 @@
 4) Start collecting tactile data
 5) Raise the robot arm to a pre-defined pose, i.e. the robot
 lifts the object (lasting ≈0.2s)
-6) Once the robot arm is static, wait a period of 2 seconds
+6) Once the robot arm is static, wait a period of 2s
 7) Stop recording tactile data
 8) Label the collected data (section IV-C)
 
