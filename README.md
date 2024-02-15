@@ -47,4 +47,4 @@ These objects are an empty cardboard can, an unopened soda can, three cuboid woo
 
 
 ## References
-[1] R. Zenha, B. Denoun, A. Cavallaro, A. Bernardino, L. Jamone, "An Efficient Protocol to Train Robust Tactile Slip Detection Models for Robotic Grasping", 2024
+[1] R. Zenha*, B. Denoun*, A. Cavallaro, A. Bernardino, L. Jamone, "An Efficient Protocol to Train Robust Tactile Slip Detection Models for Robotic Grasping", 2024
