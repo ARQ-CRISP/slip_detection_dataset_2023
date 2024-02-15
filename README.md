@@ -7,7 +7,7 @@
 3) Close the robot fingers (i.e. grasp the object)
 4) Start collecting tactile data
 5) Raise the robot arm to a pre-defined pose, i.e. the robot
-lifts the object, lasting some period of time (≈ 0.2s)
+lifts the object (lasting ≈0.2s)
 6) Once the robot arm is static, wait a period of 2 seconds
 7) Stop recording tactile data
 8) Label the collected data (section IV-C)
@@ -33,7 +33,7 @@ Tactlie slip data has been collected for robitc grasps of seven objects:
 
 ![alt text][objects_table]
 
-These objects are an empty cardboard can, an unopened soda can, three cuboid wood bars - two of them wrapped in either baking paper or duct tape to change their respective coefficients of friction - a metal bar, and a brush. As reported in Table I, this set of objects includes a variety of shapes (cuboid, cylindrical, composite), weights (between 47 and 356 g), dimensions and textures. The coefficient of friction of each object has been estimated by executing the experiment described in [here](https://nfsi.org/wp-content/uploads/2013/10/Determining.pdf), using a 500 g weight. For each sampled grasp pose of each object, 10 experiments were collected and labelled, leading to a total of 2100 grasps across the seven objects. This corresponds to ~70 minutes of tactile data, and ~ 420K tactile samples, with ~230K labelled as slip events, and ~190K as non-slip events.
+These objects are an empty cardboard can, an unopened soda can, three cuboid wood bars - two of them wrapped in either baking paper or duct tape to change their respective coefficients of friction - a metal bar, and a brush. As reported in Table I, this set of objects includes a variety of shapes (cuboid, cylindrical, composite), weights (between 47 and 356 g), dimensions and textures. The coefficient of friction of each object has been estimated by executing the experiment described in [here](https://nfsi.org/wp-content/uploads/2013/10/Determining.pdf), using a 500 g weight. For each sampled grasp pose of each object, 10 experiments were collected and labelled, leading to a total of 2100 grasps across the seven objects. This corresponds to ≈70 minutes of tactile data, and ≈420K tactile samples, with ≈230K labelled as slip events, and ≈190K as non-slip events.
 
 
 # Further testing data as been captured for each of the objects
